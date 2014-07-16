@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForumDB", "ForumDB\ForumDB.csproj", "{3C82D49D-8FF7-4ED4-87F3-37A201581BDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forum", "Forum\Forum.csproj", "{46558F73-8CD6-4015-8150-D26A00FF4BC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forum.Tests", "Forum.Tests\Forum.Tests.csproj", "{3D28DA82-09DD-455C-9396-2724B47D7EF3}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C82D49D-8FF7-4ED4-87F3-37A201581BDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C82D49D-8FF7-4ED4-87F3-37A201581BDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C82D49D-8FF7-4ED4-87F3-37A201581BDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C82D49D-8FF7-4ED4-87F3-37A201581BDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46558F73-8CD6-4015-8150-D26A00FF4BC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46558F73-8CD6-4015-8150-D26A00FF4BC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46558F73-8CD6-4015-8150-D26A00FF4BC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46558F73-8CD6-4015-8150-D26A00FF4BC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D28DA82-09DD-455C-9396-2724B47D7EF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D28DA82-09DD-455C-9396-2724B47D7EF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D28DA82-09DD-455C-9396-2724B47D7EF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D28DA82-09DD-455C-9396-2724B47D7EF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

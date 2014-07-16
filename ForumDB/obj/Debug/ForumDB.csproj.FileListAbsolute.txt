@@ -1,0 +1,5 @@
+D:\Projects\Final.Task.Plex.Forum.Vysotskiy\ForumDB\bin\Debug\ForumDB.dll
+D:\Projects\Final.Task.Plex.Forum.Vysotskiy\ForumDB\bin\Debug\ForumDB.pdb
+D:\Projects\Final.Task.Plex.Forum.Vysotskiy\ForumDB\obj\Debug\ForumDB.csprojResolveAssemblyReference.cache
+D:\Projects\Final.Task.Plex.Forum.Vysotskiy\ForumDB\obj\Debug\ForumDB.dll
+D:\Projects\Final.Task.Plex.Forum.Vysotskiy\ForumDB\obj\Debug\ForumDB.pdb
