@@ -3,3 +3,8 @@ D:\Projects\Final.Task.Plex.Forum.Vysotskiy\ForumDB\bin\Debug\ForumDB.pdb
 D:\Projects\Final.Task.Plex.Forum.Vysotskiy\ForumDB\obj\Debug\ForumDB.csprojResolveAssemblyReference.cache
 D:\Projects\Final.Task.Plex.Forum.Vysotskiy\ForumDB\obj\Debug\ForumDB.dll
 D:\Projects\Final.Task.Plex.Forum.Vysotskiy\ForumDB\obj\Debug\ForumDB.pdb
+D:\Projects\Final.Task.Plex.Forum.Vysotskiy\ForumDB\bin\Debug\ForumDB.dll.config
+D:\Projects\Final.Task.Plex.Forum.Vysotskiy\ForumDB\bin\Debug\EntityFramework.dll
+D:\Projects\Final.Task.Plex.Forum.Vysotskiy\ForumDB\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\Final.Task.Plex.Forum.Vysotskiy\ForumDB\bin\Debug\EntityFramework.xml
+D:\Projects\Final.Task.Plex.Forum.Vysotskiy\ForumDB\bin\Debug\EntityFramework.SqlServer.xml

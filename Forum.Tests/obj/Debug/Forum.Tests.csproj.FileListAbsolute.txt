@@ -48,3 +48,7 @@ D:\Projects\Final.Task.Plex.Forum.Vysotskiy\Forum.Tests\bin\Debug\EntityFramewor
 D:\Projects\Final.Task.Plex.Forum.Vysotskiy\Forum.Tests\obj\Debug\Forum.Tests.csprojResolveAssemblyReference.cache
 D:\Projects\Final.Task.Plex.Forum.Vysotskiy\Forum.Tests\obj\Debug\Forum.Tests.dll
 D:\Projects\Final.Task.Plex.Forum.Vysotskiy\Forum.Tests\obj\Debug\Forum.Tests.pdb
+D:\Projects\Final.Task.Plex.Forum.Vysotskiy\Forum.Tests\bin\Debug\ForumDB.dll
+D:\Projects\Final.Task.Plex.Forum.Vysotskiy\Forum.Tests\bin\Debug\Microsoft.Owin.Security.Google.dll
+D:\Projects\Final.Task.Plex.Forum.Vysotskiy\Forum.Tests\bin\Debug\ForumDB.pdb
+D:\Projects\Final.Task.Plex.Forum.Vysotskiy\Forum.Tests\bin\Debug\Microsoft.Owin.Security.Google.xml

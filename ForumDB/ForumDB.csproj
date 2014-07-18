@@ -30,7 +30,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
@@ -41,23 +48,75 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ForumDB.Designer.cs">
+    <Compile Include="AspNetRole.cs">
+      <DependentUpon>ForumModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AspNetUser.cs">
+      <DependentUpon>ForumModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AspNetUserClaim.cs">
+      <DependentUpon>ForumModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AspNetUserLogin.cs">
+      <DependentUpon>ForumModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C__MigrationHistory.cs">
+      <DependentUpon>ForumModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ForumCategory.cs">
+      <DependentUpon>ForumModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ForumMessage.cs">
+      <DependentUpon>ForumModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ForumModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>ForumDB.edmx</DependentUpon>
+      <DependentUpon>ForumModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ForumModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ForumModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ForumModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ForumModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="ForumTopic.cs">
+      <DependentUpon>ForumModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EntityDeploy Include="ForumDB.edmx">
+    <EntityDeploy Include="ForumModel.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>ForumDB.Designer.cs</LastGenOutput>
+      <LastGenOutput>ForumModel.Designer.cs</LastGenOutput>
     </EntityDeploy>
   </ItemGroup>
   <ItemGroup>
-    <None Include="ForumDB.edmx.diagram">
-      <DependentUpon>ForumDB.edmx</DependentUpon>
+    <None Include="App.Config" />
+    <None Include="ForumModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ForumModel.edmx</DependentUpon>
+      <LastGenOutput>ForumModel.Context.cs</LastGenOutput>
     </None>
+    <None Include="ForumModel.edmx.diagram">
+      <DependentUpon>ForumModel.edmx</DependentUpon>
+    </None>
+    <None Include="ForumModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ForumModel.edmx</DependentUpon>
+      <LastGenOutput>ForumModel.cs</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ForumModel.edmx.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

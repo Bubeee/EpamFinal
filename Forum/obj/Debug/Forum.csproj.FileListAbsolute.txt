@@ -61,3 +61,9 @@ D:\Projects\Final.Task.Plex.Forum.Vysotskiy\Forum\bin\System.Web.WebPages.Razor.
 D:\Projects\Final.Task.Plex.Forum.Vysotskiy\Forum\obj\Debug\Forum.csprojResolveAssemblyReference.cache
 D:\Projects\Final.Task.Plex.Forum.Vysotskiy\Forum\obj\Debug\Forum.dll
 D:\Projects\Final.Task.Plex.Forum.Vysotskiy\Forum\obj\Debug\Forum.pdb
+D:\Projects\Final.Task.Plex.Forum.Vysotskiy\Forum\bin\jQueryTmpl.dll
+D:\Projects\Final.Task.Plex.Forum.Vysotskiy\Forum\bin\jQueryTmpl.Mvc.dll
+D:\Projects\Final.Task.Plex.Forum.Vysotskiy\Forum\bin\jQueryTmpl.xml
+D:\Projects\Final.Task.Plex.Forum.Vysotskiy\Forum\bin\jQueryTmpl.Mvc.xml
+D:\Projects\Final.Task.Plex.Forum.Vysotskiy\Forum\bin\ForumDB.dll
+D:\Projects\Final.Task.Plex.Forum.Vysotskiy\Forum\bin\ForumDB.pdb
