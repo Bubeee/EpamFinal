@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace Interfaces
 {
-    public interface IRepository
+    public interface IRepository<T> where T : class, IEntity
     {
-        void Add<T>(T item) where T : class, IEntity;
-        void Delete<T>(T item) where T : class, IEntity;
-        IQueryable<T> SearchFor<T>(Expression<Func<T, bool>> predicate) where T : class, IEntity;
-        IQueryable<T> GetAll<T>() where T : class, IEntity;
-        T GetById<T>(int key) where T : class, IEntity;
-        void Edit<T>(T item) where T : class, IEntity;
+        void Add(T item);
+        void Edit(T item);
+        void Delete(T item);
+        T GetById(int key);
+        IQueryable<T> GetAll();
+       // IEnumerable<T> SearchFor(Expression<Func<T, bool>> predicate);
     }
 }

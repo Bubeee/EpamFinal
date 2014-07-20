@@ -59,7 +59,7 @@ namespace Forum
             //    appId: "",
             //    appSecret: "");
 
-            app.UseGoogleAuthentication();
+            //app.UseGoogleAuthentication();
         }
     }
 }

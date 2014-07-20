@@ -6,7 +6,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{3D28DA82-09DD-455C-9396-2724B47D7EF3}</ProjectGuid>
+    <ProjectGuid>{FD577F20-7C9A-4A8C-B32E-BABB3357FDB8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Forum.Tests</RootNamespace>
@@ -91,7 +91,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ForumDbContextTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Controllers\ValuesControllerTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App.config" />
@@ -100,8 +102,12 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ForumDb\ForumDb.csproj">
+      <Project>{9D83FC76-B5B4-4F27-B0A0-FFA47317B8B4}</Project>
+      <Name>ForumDb</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Forum\Forum.csproj">
-      <Project>{46558F73-8CD6-4015-8150-D26A00FF4BC3}</Project>
+      <Project>{0789F8AD-F7E8-470F-A40C-53D9D87BFAAB}</Project>
       <Name>Forum</Name>
     </ProjectReference>
   </ItemGroup>

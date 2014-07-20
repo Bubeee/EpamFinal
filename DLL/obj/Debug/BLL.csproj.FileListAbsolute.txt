@@ -4,12 +4,12 @@ D:\Projects\Final.Task.Plex.Forum.Vysotskiy\DLL\bin\Debug\DLL.pdb
 D:\Projects\Final.Task.Plex.Forum.Vysotskiy\DLL\bin\Debug\DAL.ORM.dll
 D:\Projects\Final.Task.Plex.Forum.Vysotskiy\DLL\bin\Debug\Interfaces.dll
 D:\Projects\Final.Task.Plex.Forum.Vysotskiy\DLL\bin\Debug\Ninject.dll
-D:\Projects\Final.Task.Plex.Forum.Vysotskiy\DLL\bin\Debug\ForumDB.dll
-D:\Projects\Final.Task.Plex.Forum.Vysotskiy\DLL\bin\Debug\EntityFramework.dll
 D:\Projects\Final.Task.Plex.Forum.Vysotskiy\DLL\bin\Debug\DAL.ORM.pdb
 D:\Projects\Final.Task.Plex.Forum.Vysotskiy\DLL\bin\Debug\Interfaces.pdb
 D:\Projects\Final.Task.Plex.Forum.Vysotskiy\DLL\bin\Debug\Ninject.xml
-D:\Projects\Final.Task.Plex.Forum.Vysotskiy\DLL\bin\Debug\ForumDB.pdb
-D:\Projects\Final.Task.Plex.Forum.Vysotskiy\DLL\bin\Debug\EntityFramework.xml
 D:\Projects\Final.Task.Plex.Forum.Vysotskiy\DLL\obj\Debug\DLL.dll
 D:\Projects\Final.Task.Plex.Forum.Vysotskiy\DLL\obj\Debug\DLL.pdb
+D:\Projects\Final.Task.Plex.Forum.Vysotskiy\DLL\bin\Debug\EntityFramework.dll
+D:\Projects\Final.Task.Plex.Forum.Vysotskiy\DLL\bin\Debug\ForumDb.dll
+D:\Projects\Final.Task.Plex.Forum.Vysotskiy\DLL\bin\Debug\EntityFramework.xml
+D:\Projects\Final.Task.Plex.Forum.Vysotskiy\DLL\bin\Debug\ForumDb.pdb

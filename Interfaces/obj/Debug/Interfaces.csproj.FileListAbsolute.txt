@@ -3,7 +3,7 @@ D:\Projects\Final.Task.Plex.Forum.Vysotskiy\Interfaces\bin\Debug\Interfaces.dll
 D:\Projects\Final.Task.Plex.Forum.Vysotskiy\Interfaces\bin\Debug\Interfaces.pdb
 D:\Projects\Final.Task.Plex.Forum.Vysotskiy\Interfaces\obj\Debug\Interfaces.dll
 D:\Projects\Final.Task.Plex.Forum.Vysotskiy\Interfaces\obj\Debug\Interfaces.pdb
-D:\Projects\Final.Task.Plex.Forum.Vysotskiy\Interfaces\bin\Debug\ForumDB.dll
+D:\Projects\Final.Task.Plex.Forum.Vysotskiy\Interfaces\bin\Debug\ForumDb.dll
 D:\Projects\Final.Task.Plex.Forum.Vysotskiy\Interfaces\bin\Debug\EntityFramework.dll
-D:\Projects\Final.Task.Plex.Forum.Vysotskiy\Interfaces\bin\Debug\ForumDB.pdb
+D:\Projects\Final.Task.Plex.Forum.Vysotskiy\Interfaces\bin\Debug\ForumDb.pdb
 D:\Projects\Final.Task.Plex.Forum.Vysotskiy\Interfaces\bin\Debug\EntityFramework.xml

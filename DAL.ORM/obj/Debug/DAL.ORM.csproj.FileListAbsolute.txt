@@ -4,11 +4,11 @@ D:\Projects\Final.Task.Plex.Forum.Vysotskiy\DAL.ORM\bin\Debug\DAL.ORM.dll
 D:\Projects\Final.Task.Plex.Forum.Vysotskiy\DAL.ORM\bin\Debug\DAL.ORM.pdb
 D:\Projects\Final.Task.Plex.Forum.Vysotskiy\DAL.ORM\bin\Debug\EntityFramework.dll
 D:\Projects\Final.Task.Plex.Forum.Vysotskiy\DAL.ORM\bin\Debug\EntityFramework.SqlServer.dll
-D:\Projects\Final.Task.Plex.Forum.Vysotskiy\DAL.ORM\bin\Debug\ForumDB.dll
 D:\Projects\Final.Task.Plex.Forum.Vysotskiy\DAL.ORM\bin\Debug\Interfaces.dll
-D:\Projects\Final.Task.Plex.Forum.Vysotskiy\DAL.ORM\bin\Debug\ForumDB.pdb
 D:\Projects\Final.Task.Plex.Forum.Vysotskiy\DAL.ORM\bin\Debug\Interfaces.pdb
 D:\Projects\Final.Task.Plex.Forum.Vysotskiy\DAL.ORM\bin\Debug\EntityFramework.xml
 D:\Projects\Final.Task.Plex.Forum.Vysotskiy\DAL.ORM\bin\Debug\EntityFramework.SqlServer.xml
 D:\Projects\Final.Task.Plex.Forum.Vysotskiy\DAL.ORM\obj\Debug\DAL.ORM.dll
 D:\Projects\Final.Task.Plex.Forum.Vysotskiy\DAL.ORM\obj\Debug\DAL.ORM.pdb
+D:\Projects\Final.Task.Plex.Forum.Vysotskiy\DAL.ORM\bin\Debug\ForumDb.dll
+D:\Projects\Final.Task.Plex.Forum.Vysotskiy\DAL.ORM\bin\Debug\ForumDb.pdb

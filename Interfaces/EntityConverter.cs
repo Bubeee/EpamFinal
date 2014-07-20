@@ -1,5 +1,4 @@
-﻿using ForumDB;
-using Interfaces.Entities;
+﻿using Interfaces.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,17 +9,19 @@ namespace Interfaces
 {
     public static class EntityConverter
     {
-        public static Category ToEntity(ForumCategory dalEntity)
+        public static Category Convert(ForumDb.DbEntities.Category dalEntity)
         {
-            return new Category() { 
-                Id = dalEntity.Id, 
-                Name = dalEntity.Name 
+            return new Category()
+            {
+                Id = dalEntity.Id,
+                Name = dalEntity.Name
             };
         }
-        public static Message ToEntity(ForumMessage dalEntity)
+        public static Message Convert(ForumDb.DbEntities.Message dalEntity)
         {
-            return new Message() { 
-                Id = dalEntity.Id, 
+            return new Message()
+            {
+                Id = dalEntity.Id,
                 IdParentMessage = dalEntity.IdParentMessage,
                 InsertDate = dalEntity.InsertDate,
                 UpdateDate = dalEntity.UpdateDate,
@@ -31,30 +32,31 @@ namespace Interfaces
                 TopicId = dalEntity.TopicId
             };
         }
-        public static Topic ToEntity(ForumTopic dalEntity)
+        public static Topic Convert(ForumDb.DbEntities.Topic dalEntity)
         {
-            return new Topic() {
+            return new Topic()
+            {
                 Id = dalEntity.Id,
                 InsertDate = dalEntity.InsertDate,
                 UpdateDate = dalEntity.UpdateDate,
                 Title = dalEntity.Title,
                 UserId = dalEntity.UserId,
                 Description = dalEntity.Description,
-                ForumCategoryId = dalEntity.ForumCategoryId
+                CategoryId = dalEntity.Category.Id
             };
         }
 
-        public static ForumCategory ToEntity(Category entity)
+        public static ForumDb.DbEntities.Category Convert(Category entity)
         {
-            return new ForumCategory()
+            return new ForumDb.DbEntities.Category()
             {
                 Id = entity.Id,
                 Name = entity.Name
             };
         }
-        public static ForumMessage ToEntity(Message entity)
+        public static ForumDb.DbEntities.Message Convert(Message entity)
         {
-            return new ForumMessage()
+            return new ForumDb.DbEntities.Message()
             {
                 Id = entity.Id,
                 IdParentMessage = entity.IdParentMessage,
@@ -67,19 +69,17 @@ namespace Interfaces
                 TopicId = entity.TopicId
             };
         }
-        public static ForumTopic ToEntity(Topic entity)
+        public static ForumDb.DbEntities.Topic Convert(Topic entity)
         {
-            return new ForumTopic()
+            return new ForumDb.DbEntities.Topic()
             {
                 Id = entity.Id,
                 InsertDate = entity.InsertDate,
                 UpdateDate = entity.UpdateDate,
                 Title = entity.Title,
                 UserId = entity.UserId,
-                Description = entity.Description,
-                ForumCategoryId = entity.ForumCategoryId
+                Description = entity.Description                
             };
         }
-
     }
 }

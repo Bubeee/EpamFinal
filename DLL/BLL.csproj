@@ -7,7 +7,7 @@
     <ProjectGuid>{7860C76F-752D-40DE-9337-DF2938067DAB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DLL</RootNamespace>
+    <RootNamespace>BLL</RootNamespace>
     <AssemblyName>DLL</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -42,9 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Services\CategoryService.cs" />
     <Compile Include="ForumNinjectModule.cs" />
-    <Compile Include="ForumService.cs" />
+    <Compile Include="Services\ForumService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\TopicService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DAL.ORM\DAL.ORM.csproj">

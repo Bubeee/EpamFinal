@@ -48,7 +48,13 @@ D:\Projects\Final.Task.Plex.Forum.Vysotskiy\Forum.Tests\bin\Debug\EntityFramewor
 D:\Projects\Final.Task.Plex.Forum.Vysotskiy\Forum.Tests\obj\Debug\Forum.Tests.csprojResolveAssemblyReference.cache
 D:\Projects\Final.Task.Plex.Forum.Vysotskiy\Forum.Tests\obj\Debug\Forum.Tests.dll
 D:\Projects\Final.Task.Plex.Forum.Vysotskiy\Forum.Tests\obj\Debug\Forum.Tests.pdb
-D:\Projects\Final.Task.Plex.Forum.Vysotskiy\Forum.Tests\bin\Debug\ForumDB.dll
-D:\Projects\Final.Task.Plex.Forum.Vysotskiy\Forum.Tests\bin\Debug\Microsoft.Owin.Security.Google.dll
-D:\Projects\Final.Task.Plex.Forum.Vysotskiy\Forum.Tests\bin\Debug\ForumDB.pdb
-D:\Projects\Final.Task.Plex.Forum.Vysotskiy\Forum.Tests\bin\Debug\Microsoft.Owin.Security.Google.xml
+D:\Projects\Final.Task.Plex.Forum.Vysotskiy\Forum.Tests\bin\Debug\ForumDb.dll
+D:\Projects\Final.Task.Plex.Forum.Vysotskiy\Forum.Tests\bin\Debug\ForumDb.pdb
+D:\Projects\Final.Task.Plex.Forum.Vysotskiy\Forum.Tests\bin\Debug\Interfaces.dll
+D:\Projects\Final.Task.Plex.Forum.Vysotskiy\Forum.Tests\bin\Debug\Interfaces.pdb
+D:\Projects\Final.Task.Plex.Forum.Vysotskiy\Forum.Tests\bin\Debug\DLL.dll
+D:\Projects\Final.Task.Plex.Forum.Vysotskiy\Forum.Tests\bin\Debug\Ninject.dll
+D:\Projects\Final.Task.Plex.Forum.Vysotskiy\Forum.Tests\bin\Debug\DAL.ORM.dll
+D:\Projects\Final.Task.Plex.Forum.Vysotskiy\Forum.Tests\bin\Debug\DLL.pdb
+D:\Projects\Final.Task.Plex.Forum.Vysotskiy\Forum.Tests\bin\Debug\Ninject.xml
+D:\Projects\Final.Task.Plex.Forum.Vysotskiy\Forum.Tests\bin\Debug\DAL.ORM.pdb

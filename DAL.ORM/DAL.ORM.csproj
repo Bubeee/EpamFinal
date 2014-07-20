@@ -46,13 +46,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ORMRepository.cs" />
+    <Compile Include="Repositories\CategoryORMRepository.cs" />
+    <Compile Include="Repositories\MessageORMRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\TopicORMRepository.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ForumDB\ForumDB.csproj">
-      <Project>{3c82d49d-8ff7-4ed4-87f3-37a201581bdc}</Project>
-      <Name>ForumDB</Name>
+    <ProjectReference Include="..\ForumDb\ForumDb.csproj">
+      <Project>{9d83fc76-b5b4-4f27-b0a0-ffa47317b8b4}</Project>
+      <Name>ForumDb</Name>
     </ProjectReference>
     <ProjectReference Include="..\Interfaces\Interfaces.csproj">
       <Project>{6a956d5e-492f-4510-9076-ccc99e23d9d9}</Project>
